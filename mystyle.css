@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+#picprofile {
+    border-radius: 50%;
+    width: 240px;
+    border: 20px;
+    margin: 20px;
+}
+
+#boxheader {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    border-radius: 1%;
+    padding: 20px;
+}
+
+#boxinfo{
+    background-color: rgb(50, 50, 50);
+    border-radius: 1%;
+    padding: 10px;
+}
+
+#boxfooter {
+    text-align: right;
+    font-weight: bold;
+    float:inline-end
+}
+
+a{
+    color: aqua;
+    font-weight: bold;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: bold;
+}
+
