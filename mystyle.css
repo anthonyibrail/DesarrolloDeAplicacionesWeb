@@ -14,14 +14,26 @@ body {
 #boxheader {
     background-color: rgb(50, 50, 50);
     text-align: center;
-    border-radius: 1%;
+    font-size: xx-large;
     padding: 20px;
+    border: 1px solid white;
 }
 
 #boxinfo{
-    background-color: rgb(50, 50, 50);
     border-radius: 1%;
     padding: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+
+#boxnav{
+    border-radius: 1%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
 }
 
 #boxfooter {
