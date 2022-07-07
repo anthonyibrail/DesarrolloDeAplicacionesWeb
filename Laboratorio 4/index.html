@@ -26,11 +26,12 @@
                                 <form class="todoForm">
                                     <fieldset>
                                         <textarea
-                                            class="newTodo form-control"
+                                            class="newTodo form-control" id="todoText"
                                         ></textarea>
                                         <button
                                             type="submit"
                                             class="submitButton"
+                                            id="ButtonPost"
                                         >
                                             Post To-Do
                                         </button>
@@ -44,15 +45,17 @@
                             <div class="panel-heading">
                                 <h3>List of To-Do's</h3>
                             </div>
-                            <div class="panel-body" class="listOfTodos"></div>
+                            <div class="panel-body" class="listOfTodos" id="todoList">
+
+                            </div>
                             <div class="buttons">
-                                <button class="clearButton btn-info">
+                                <button class="clearButton btn-info" id="ButtonClear">
                                     Clear all To-Do's
                                 </button>
-                                <button class="markAllButton btn-success">
+                                <button class="markAllButton btn-success" id="ButtonMark">
                                     Mark all To-Do's
                                 </button>
-                                <button class="deleteButton btn-danger">
+                                <button class="deleteButton btn-danger" id="ButtonDelete">
                                     Delete all To-Do's
                                 </button>
                             </div>
@@ -61,6 +64,9 @@
                 </div>
             </div>
         </main>
-        <footer role="footer" class="footer">To-Do list application</footer>
+        <footer role="footer" class="footer">
+            To-Do list application
+        </footer>
+        <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>
