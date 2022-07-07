@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do</title>
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-  <body>
-    <header class="navbar navbar-default">
-      <h1 class="todoTitle">
-        To-Do List
-      </h1>
-    </header>
-    <main class="wrapper" role="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3>
-                  New To-Do
-                </h3>
-              </div>
-              <div class="panel-body">
-                <form class="todoForm">
-                  <fieldset>
-                    <textarea class="newTodo form-control"></textarea>
-                    <button type="submit" class="submitButton"> 
-                      Post To-Do
-                    </button>
-                  </fieldset>
-                </form>
-              </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        />
+    </head>
+    <body>
+        <header class="navbar navbar-default">
+            <h1 class="todoTitle">To-Do List</h1>
+        </header>
+        <main class="wrapper" role="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3>New To-Do</h3>
+                            </div>
+                            <div class="panel-body">
+                                <form class="todoForm">
+                                    <fieldset>
+                                        <textarea
+                                            class="newTodo form-control"
+                                        ></textarea>
+                                        <button
+                                            type="submit"
+                                            class="submitButton"
+                                        >
+                                            Post To-Do
+                                        </button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3>List of To-Do's</h3>
+                            </div>
+                            <div class="panel-body" class="listOfTodos"></div>
+                            <div class="buttons">
+                                <button class="clearButton btn-info">
+                                    Clear all To-Do's
+                                </button>
+                                <button class="markAllButton btn-success">
+                                    Mark all To-Do's
+                                </button>
+                                <button class="deleteButton btn-danger">
+                                    Delete all To-Do's
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3>List of To-Do's</h3>
-              </div>
-              <div class="panel-body" class="listOfTodos">
-
-              </div>
-              <div class="buttons">
-                <button class="clearButton btn-info"> 
-                  Clear all To-Do's
-                </button>
-                <button class="markAllButton btn-success"> 
-                  Mark all To-Do's
-                </button>
-                <button class="deleteButton btn-danger"> 
-                  Delete all To-Do's
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer role="footer" class="footer">
-      To-Do list application
-    </footer>
-  </body>
+        </main>
+        <footer role="footer" class="footer">To-Do list application</footer>
+    </body>
 </html>
