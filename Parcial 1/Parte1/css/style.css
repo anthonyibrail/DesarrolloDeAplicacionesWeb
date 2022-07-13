@@ -6,25 +6,37 @@ img {
     width: 50%;
     border-style: double;
     border-width: 5px;
+    border-color: #02b7ad;
 }
 
 q {
     font-size: 15px;
-    font-weight: bold;
-}
-
-h2 {
     text-align: center;
 }
 
+.encabezados {
+    color: #e28982;
+    text-align: center;
+}
+
+span {
+    color: #e28982;
+}
+
 body {
-    background-color: rgb(213, 228, 255);
+    background-color: #2e3651;
+    color: #02b7ad;
+    font-family: sans-serif;
 }
 
 footer {
     display: flex;
     justify-content: end;
     margin-top: 50px;
+}
+
+a {
+    color: #e28982;
 }
 
 .elcontenedor {
