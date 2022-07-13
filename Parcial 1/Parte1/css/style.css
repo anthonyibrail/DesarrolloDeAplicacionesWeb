@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    border-style: double;
+    border-width: 5px;
+}
+
+q {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(213, 228, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.elcontenedor {
+    display: flex;
+    flex-direction: column-reverse;
+}
