@@ -1,45 +1,33 @@
+html {
+    height: 100%;
+    text-align: center;
+}
+
 body {
     background-color: black;
     font-family: sans-serif;
     color: aliceblue;
 }
 
-#picprofile {
-    border-radius: 50%;
-    width: 240px;
-    border: 20px;
-    margin: 20px;
-}
-
-#boxheader {
+header {
     background-color: rgb(50, 50, 50);
-    text-align: center;
     font-size: xx-large;
     padding: 20px;
-    border: 1px solid white;
+    border-style: double;
+    border-color: aqua;
 }
 
 #boxinfo{
-    border-radius: 1%;
     padding: 10px;
     font-size: x-large;
-    text-align: center;
 }
 
-#boxnav{
-    border-radius: 1%;
+#boxnavlabs{
     padding: 10px;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    text-align: center;
     font-size: x-large;
-}
-
-#boxfooter {
-    text-align: right;
-    font-weight: bold;
-    float:inline-end
 }
 
 a{
@@ -47,8 +35,15 @@ a{
     font-weight: bold;
 }
 
-h5 {
-    font-style: italic;
-    font-weight: bold;
+#boxnavparciales{
+    padding: 10px;
+    justify-content: center;
+    font-size: x-large;
 }
 
+footer {
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
